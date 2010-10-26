@@ -1,0 +1,1483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AgileDevPracticesEast2010AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AgileDevPracticesEast2010AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28193060112F816700ECF9B4 /* AgileDevPracticesEast2010.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2819305F112F816700ECF9B4 /* AgileDevPracticesEast2010.xcdatamodeld */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		77227E061256AF5C005E5EC8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 77227E051256AF5C005E5EC8 /* Default.png */; };
+		77227E071256AF5C005E5EC8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 77227E051256AF5C005E5EC8 /* Default.png */; };
+		77227E081256AF5C005E5EC8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 77227E051256AF5C005E5EC8 /* Default.png */; };
+		77227E091256AF5C005E5EC8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 77227E051256AF5C005E5EC8 /* Default.png */; };
+		77227E0A1256AF5C005E5EC8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 77227E051256AF5C005E5EC8 /* Default.png */; };
+		772A821F1244462C00028CFE /* libyajl_s.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 772A821E1244462C00028CFE /* libyajl_s.a */; };
+		772A8260124447F400028CFE /* MGTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A823D124447F400028CFE /* MGTwitterEngine.m */; };
+		772A8261124447F400028CFE /* MGTwitterHTTPURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A8241124447F400028CFE /* MGTwitterHTTPURLConnection.m */; };
+		772A8264124447F400028CFE /* MGTwitterMessagesYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A8247124447F400028CFE /* MGTwitterMessagesYAJLParser.m */; };
+		772A8266124447F400028CFE /* MGTwitterMiscYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A824B124447F400028CFE /* MGTwitterMiscYAJLParser.m */; };
+		772A8267124447F400028CFE /* MGTwitterSearchYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A824F124447F400028CFE /* MGTwitterSearchYAJLParser.m */; };
+		772A8269124447F400028CFE /* MGTwitterStatusesYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A8253124447F400028CFE /* MGTwitterStatusesYAJLParser.m */; };
+		772A826B124447F400028CFE /* MGTwitterUsersYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A8257124447F400028CFE /* MGTwitterUsersYAJLParser.m */; };
+		772A826D124447F400028CFE /* MGTwitterYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A825B124447F400028CFE /* MGTwitterYAJLParser.m */; };
+		772A826E124447F400028CFE /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A825D124447F400028CFE /* NSData+Base64.m */; };
+		772A826F124447F400028CFE /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A825F124447F400028CFE /* NSString+UUID.m */; };
+		772A8270124447F400028CFE /* MGTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A823D124447F400028CFE /* MGTwitterEngine.m */; };
+		772A8271124447F400028CFE /* MGTwitterHTTPURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A8241124447F400028CFE /* MGTwitterHTTPURLConnection.m */; };
+		772A8274124447F400028CFE /* MGTwitterMessagesYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A8247124447F400028CFE /* MGTwitterMessagesYAJLParser.m */; };
+		772A8276124447F400028CFE /* MGTwitterMiscYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A824B124447F400028CFE /* MGTwitterMiscYAJLParser.m */; };
+		772A8277124447F400028CFE /* MGTwitterSearchYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A824F124447F400028CFE /* MGTwitterSearchYAJLParser.m */; };
+		772A8279124447F400028CFE /* MGTwitterStatusesYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A8253124447F400028CFE /* MGTwitterStatusesYAJLParser.m */; };
+		772A827B124447F400028CFE /* MGTwitterUsersYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A8257124447F400028CFE /* MGTwitterUsersYAJLParser.m */; };
+		772A827D124447F400028CFE /* MGTwitterYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A825B124447F400028CFE /* MGTwitterYAJLParser.m */; };
+		772A827E124447F400028CFE /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A825D124447F400028CFE /* NSData+Base64.m */; };
+		772A827F124447F400028CFE /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A825F124447F400028CFE /* NSString+UUID.m */; };
+		772A865012451AC000028CFE /* SessionMock.m in Sources */ = {isa = PBXBuildFile; fileRef = C9277185123D47EC000AD491 /* SessionMock.m */; };
+		772A865112451AC000028CFE /* SessionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF4331242DD1200C08D21 /* SessionDetailViewController.m */; };
+		772A865212451AC000028CFE /* SessionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C927724C123D6207000AD491 /* SessionHelper.m */; };
+		772A865312451AC000028CFE /* SessionCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = C92771A0123D4969000AD491 /* SessionCollection.m */; };
+		772A865412451AC000028CFE /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92772C9123D9E82000AD491 /* ScheduleViewController.m */; };
+		772A865512451AC000028CFE /* ScheduleViewControllerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E1A326124027550050A6E0 /* ScheduleViewControllerAppTests.m */; };
+		772A865612451AC000028CFE /* SessionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FD7FFB124055CB00A3AE49 /* SessionListViewController.m */; };
+		772A865712451AC000028CFE /* SessionListViewControllerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A84CED1241777000F16CA0 /* SessionListViewControllerAppTests.m */; };
+		772A865812451AC000028CFE /* SessionDetailViewControllerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF5AF1243C7B400C08D21 /* SessionDetailViewControllerAppTests.m */; };
+		772A865912451AC000028CFE /* SpeakerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF66D1243D65D00C08D21 /* SpeakerDetailViewController.m */; };
+		772A865A12451AC000028CFE /* SpeakerDetailViewControllerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF7B11243FAAE00C08D21 /* SpeakerDetailViewControllerAppTests.m */; };
+		772A865D12451AC000028CFE /* TwitterFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF99E12443C6300C08D21 /* TwitterFeedViewController.m */; };
+		772A866C12451ACD00028CFE /* SessionListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FD7FFC124055CB00A3AE49 /* SessionListViewController.xib */; };
+		772A866D12451ACD00028CFE /* SpeakerDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF66E1243D65D00C08D21 /* SpeakerDetailViewController.xib */; };
+		772A866F12451ACD00028CFE /* twitter_load.png in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF9781244394900C08D21 /* twitter_load.png */; };
+		772A867012451ACD00028CFE /* TwitterFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF99F12443C6300C08D21 /* TwitterFeedViewController.xib */; };
+		772A867112451ADB00028CFE /* libyajl_s.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 772A821E1244462C00028CFE /* libyajl_s.a */; };
+		772A867212451ADB00028CFE /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9277386123DA8D2000AD491 /* libOCMock.a */; };
+		772A867312451ADB00028CFE /* libOAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BFF9821244396700C08D21 /* libOAuth.a */; };
+		772A867812451C6600028CFE /* SA_OAuthTwitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF9751244394900C08D21 /* SA_OAuthTwitterController.m */; };
+		772A867B12451C7B00028CFE /* SA_OAuthTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF9771244394900C08D21 /* SA_OAuthTwitterEngine.m */; };
+		772A86B9124523DD00028CFE /* Xcode324iOS41TestSuiteWorkaround.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A84291245085900028CFE /* Xcode324iOS41TestSuiteWorkaround.m */; };
+		772A86D51245269D00028CFE /* SA_OAuthTwitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF9751244394900C08D21 /* SA_OAuthTwitterController.m */; };
+		772A86D61245269D00028CFE /* SA_OAuthTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF9771244394900C08D21 /* SA_OAuthTwitterEngine.m */; };
+		772A86D71245269D00028CFE /* TwitterFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF99E12443C6300C08D21 /* TwitterFeedViewController.m */; };
+		772A86D81245269D00028CFE /* MGTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A823D124447F400028CFE /* MGTwitterEngine.m */; };
+		772A86D91245269D00028CFE /* MGTwitterHTTPURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A8241124447F400028CFE /* MGTwitterHTTPURLConnection.m */; };
+		772A86DA1245269D00028CFE /* MGTwitterMessagesYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A8247124447F400028CFE /* MGTwitterMessagesYAJLParser.m */; };
+		772A86DB1245269D00028CFE /* MGTwitterMiscYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A824B124447F400028CFE /* MGTwitterMiscYAJLParser.m */; };
+		772A86DC1245269D00028CFE /* MGTwitterSearchYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A824F124447F400028CFE /* MGTwitterSearchYAJLParser.m */; };
+		772A86DD1245269D00028CFE /* MGTwitterStatusesYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A8253124447F400028CFE /* MGTwitterStatusesYAJLParser.m */; };
+		772A86DE1245269D00028CFE /* MGTwitterUsersYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A8257124447F400028CFE /* MGTwitterUsersYAJLParser.m */; };
+		772A86DF1245269D00028CFE /* MGTwitterYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A825B124447F400028CFE /* MGTwitterYAJLParser.m */; };
+		772A86E01245269D00028CFE /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A825D124447F400028CFE /* NSData+Base64.m */; };
+		772A86E11245269D00028CFE /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A825F124447F400028CFE /* NSString+UUID.m */; };
+		772A874612452A9D00028CFE /* libyajl_s.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 772A821E1244462C00028CFE /* libyajl_s.a */; };
+		772A874712452AA200028CFE /* libyajl_s.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 772A821E1244462C00028CFE /* libyajl_s.a */; };
+		7769E57312455573004E193F /* 01-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 7769E57212455573004E193F /* 01-refresh.png */; };
+		7769E57412455573004E193F /* 01-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 7769E57212455573004E193F /* 01-refresh.png */; };
+		7769E57512455573004E193F /* 01-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 7769E57212455573004E193F /* 01-refresh.png */; };
+		778F603E124AC90600B324CB /* dateImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 778F603D124AC90600B324CB /* dateImage.png */; };
+		778F603F124AC90600B324CB /* dateImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 778F603D124AC90600B324CB /* dateImage.png */; };
+		778F6040124AC90600B324CB /* dateImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 778F603D124AC90600B324CB /* dateImage.png */; };
+		778F610D124C0CE100B324CB /* SessionListFetchedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 778F610B124C0CE100B324CB /* SessionListFetchedViewController.m */; };
+		778F610E124C0CE100B324CB /* SessionListFetchedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 778F610C124C0CE100B324CB /* SessionListFetchedViewController.xib */; };
+		778F610F124C0CE100B324CB /* SessionListFetchedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 778F610B124C0CE100B324CB /* SessionListFetchedViewController.m */; };
+		778F6110124C0CE100B324CB /* SessionListFetchedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 778F610C124C0CE100B324CB /* SessionListFetchedViewController.xib */; };
+		778F6111124C0CE100B324CB /* SessionListFetchedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 778F610B124C0CE100B324CB /* SessionListFetchedViewController.m */; };
+		778F6112124C0CE100B324CB /* SessionListFetchedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 778F610C124C0CE100B324CB /* SessionListFetchedViewController.xib */; };
+		77A84CF01241777000F16CA0 /* SessionListViewControllerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A84CED1241777000F16CA0 /* SessionListViewControllerAppTests.m */; };
+		77BFF3BA1242CFAB00C08D21 /* adpEastLogoLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF3B81242CFAB00C08D21 /* adpEastLogoLarge.png */; };
+		77BFF3BB1242CFAB00C08D21 /* scrollBackground.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF3B91242CFAB00C08D21 /* scrollBackground.bmp */; };
+		77BFF3BC1242CFAB00C08D21 /* adpEastLogoLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF3B81242CFAB00C08D21 /* adpEastLogoLarge.png */; };
+		77BFF3BD1242CFAB00C08D21 /* scrollBackground.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF3B91242CFAB00C08D21 /* scrollBackground.bmp */; };
+		77BFF4351242DD1200C08D21 /* SessionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF4331242DD1200C08D21 /* SessionDetailViewController.m */; };
+		77BFF4361242DD1200C08D21 /* SessionDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF4341242DD1200C08D21 /* SessionDetailViewController.xib */; };
+		77BFF4371242DD1200C08D21 /* SessionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF4331242DD1200C08D21 /* SessionDetailViewController.m */; };
+		77BFF4381242DD1200C08D21 /* SessionDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF4341242DD1200C08D21 /* SessionDetailViewController.xib */; };
+		77BFF44A1242DE3D00C08D21 /* SessionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF4331242DD1200C08D21 /* SessionDetailViewController.m */; };
+		77BFF4EC1242EF5000C08D21 /* 111-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF4EB1242EF5000C08D21 /* 111-user.png */; };
+		77BFF4ED1242EF5000C08D21 /* 111-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF4EB1242EF5000C08D21 /* 111-user.png */; };
+		77BFF5B01243C7B400C08D21 /* SessionDetailViewControllerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF5AF1243C7B400C08D21 /* SessionDetailViewControllerAppTests.m */; };
+		77BFF6391243D0E900C08D21 /* SessionMock.m in Sources */ = {isa = PBXBuildFile; fileRef = C9277185123D47EC000AD491 /* SessionMock.m */; };
+		77BFF66F1243D65D00C08D21 /* SpeakerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF66D1243D65D00C08D21 /* SpeakerDetailViewController.m */; };
+		77BFF6701243D65D00C08D21 /* SpeakerDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF66E1243D65D00C08D21 /* SpeakerDetailViewController.xib */; };
+		77BFF6711243D65D00C08D21 /* SpeakerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF66D1243D65D00C08D21 /* SpeakerDetailViewController.m */; };
+		77BFF6721243D65D00C08D21 /* SpeakerDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF66E1243D65D00C08D21 /* SpeakerDetailViewController.xib */; };
+		77BFF6731243D65D00C08D21 /* SpeakerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF66D1243D65D00C08D21 /* SpeakerDetailViewController.m */; };
+		77BFF6741243D65D00C08D21 /* SpeakerDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF66E1243D65D00C08D21 /* SpeakerDetailViewController.xib */; };
+		77BFF6F01243DD4900C08D21 /* Speaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF6EF1243DD4900C08D21 /* Speaker.m */; };
+		77BFF6F11243DD4900C08D21 /* Speaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF6EF1243DD4900C08D21 /* Speaker.m */; };
+		77BFF7B21243FAAE00C08D21 /* SpeakerDetailViewControllerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF7B11243FAAE00C08D21 /* SpeakerDetailViewControllerAppTests.m */; };
+		77BFF97B1244394900C08D21 /* twitter_load.png in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF9781244394900C08D21 /* twitter_load.png */; };
+		77BFF97C1244394900C08D21 /* SA_OAuthTwitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF9751244394900C08D21 /* SA_OAuthTwitterController.m */; };
+		77BFF97D1244394900C08D21 /* SA_OAuthTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF9771244394900C08D21 /* SA_OAuthTwitterEngine.m */; };
+		77BFF97E1244394900C08D21 /* twitter_load.png in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF9781244394900C08D21 /* twitter_load.png */; };
+		77BFF97F1244394900C08D21 /* SA_OAuthTwitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF9751244394900C08D21 /* SA_OAuthTwitterController.m */; };
+		77BFF9801244394900C08D21 /* SA_OAuthTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF9771244394900C08D21 /* SA_OAuthTwitterEngine.m */; };
+		77BFF9811244394900C08D21 /* twitter_load.png in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF9781244394900C08D21 /* twitter_load.png */; };
+		77BFF9831244396700C08D21 /* libOAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BFF9821244396700C08D21 /* libOAuth.a */; };
+		77BFF9841244396700C08D21 /* libOAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BFF9821244396700C08D21 /* libOAuth.a */; };
+		77BFF9851244396700C08D21 /* libOAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BFF9821244396700C08D21 /* libOAuth.a */; };
+		77BFF9A012443C6300C08D21 /* TwitterFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF99E12443C6300C08D21 /* TwitterFeedViewController.m */; };
+		77BFF9A112443C6300C08D21 /* TwitterFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF99F12443C6300C08D21 /* TwitterFeedViewController.xib */; };
+		77BFF9A212443C6300C08D21 /* TwitterFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BFF99E12443C6300C08D21 /* TwitterFeedViewController.m */; };
+		77BFF9A312443C6300C08D21 /* TwitterFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77BFF99F12443C6300C08D21 /* TwitterFeedViewController.xib */; };
+		77FD7E6112402FDE00A3AE49 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9277386123DA8D2000AD491 /* libOCMock.a */; };
+		77FD7EF8124036DC00A3AE49 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92772C9123D9E82000AD491 /* ScheduleViewController.m */; };
+		77FD7F2612403DFD00A3AE49 /* SessionCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = C92771A0123D4969000AD491 /* SessionCollection.m */; };
+		77FD7F3112403E5500A3AE49 /* SessionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C927724C123D6207000AD491 /* SessionHelper.m */; };
+		77FD7F441240403D00A3AE49 /* 23-bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FD7F411240403D00A3AE49 /* 23-bird.png */; };
+		77FD7F451240403D00A3AE49 /* 83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FD7F421240403D00A3AE49 /* 83-calendar.png */; };
+		77FD7F461240403D00A3AE49 /* ADPEastLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77FD7F431240403D00A3AE49 /* ADPEastLogo.jpg */; };
+		77FD7F471240403D00A3AE49 /* 23-bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FD7F411240403D00A3AE49 /* 23-bird.png */; };
+		77FD7F481240403D00A3AE49 /* 83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FD7F421240403D00A3AE49 /* 83-calendar.png */; };
+		77FD7F491240403D00A3AE49 /* ADPEastLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77FD7F431240403D00A3AE49 /* ADPEastLogo.jpg */; };
+		77FD7F521240454D00A3AE49 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FD7F511240454D00A3AE49 /* Icon.png */; };
+		77FD7F531240454D00A3AE49 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FD7F511240454D00A3AE49 /* Icon.png */; };
+		77FD7F591240465A00A3AE49 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FD7F581240465A00A3AE49 /* Icon@2x.png */; };
+		77FD7F5A1240465A00A3AE49 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FD7F581240465A00A3AE49 /* Icon@2x.png */; };
+		77FD7F8E12404A3200A3AE49 /* ApplicationTests.octest in Resources */ = {isa = PBXBuildFile; fileRef = C9277131123D4237000AD491 /* ApplicationTests.octest */; };
+		77FD7FE31240532A00A3AE49 /* ADPEast2010.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 77FD7FE21240532A00A3AE49 /* ADPEast2010.sqlite */; };
+		77FD7FE41240532A00A3AE49 /* ADPEast2010.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 77FD7FE21240532A00A3AE49 /* ADPEast2010.sqlite */; };
+		77FD7FFD124055CB00A3AE49 /* SessionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FD7FFB124055CB00A3AE49 /* SessionListViewController.m */; };
+		77FD7FFE124055CB00A3AE49 /* SessionListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FD7FFC124055CB00A3AE49 /* SessionListViewController.xib */; };
+		77FD7FFF124055CB00A3AE49 /* SessionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FD7FFB124055CB00A3AE49 /* SessionListViewController.m */; };
+		77FD8000124055CB00A3AE49 /* SessionListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FD7FFC124055CB00A3AE49 /* SessionListViewController.xib */; };
+		77FD8001124055CB00A3AE49 /* SessionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FD7FFB124055CB00A3AE49 /* SessionListViewController.m */; };
+		77FD8002124055CB00A3AE49 /* SessionListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FD7FFC124055CB00A3AE49 /* SessionListViewController.xib */; };
+		C9277138123D423F000AD491 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		C927713A123D423F000AD491 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		C927713B123D423F000AD491 /* AgileDevPracticesEast2010AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AgileDevPracticesEast2010AppDelegate.m */; };
+		C927713C123D423F000AD491 /* AgileDevPracticesEast2010.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2819305F112F816700ECF9B4 /* AgileDevPracticesEast2010.xcdatamodeld */; };
+		C927713E123D423F000AD491 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		C927713F123D423F000AD491 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		C9277140123D423F000AD491 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		C9277141123D423F000AD491 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		C927716A123D43AF000AD491 /* SessionCollectionUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9277169123D43AF000AD491 /* SessionCollectionUnitTests.m */; };
+		C927717B123D4502000AD491 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = C9277177123D4502000AD491 /* Track.m */; };
+		C927717C123D4502000AD491 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = C9277179123D4502000AD491 /* Session.m */; };
+		C927717E123D4502000AD491 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = C9277177123D4502000AD491 /* Track.m */; };
+		C927717F123D4502000AD491 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = C9277179123D4502000AD491 /* Session.m */; };
+		C9277187123D47EC000AD491 /* SessionMock.m in Sources */ = {isa = PBXBuildFile; fileRef = C9277185123D47EC000AD491 /* SessionMock.m */; };
+		C92771A1123D4969000AD491 /* SessionCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = C92771A0123D4969000AD491 /* SessionCollection.m */; };
+		C92771A2123D4969000AD491 /* SessionCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = C92771A0123D4969000AD491 /* SessionCollection.m */; };
+		C92771A3123D4969000AD491 /* SessionCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = C92771A0123D4969000AD491 /* SessionCollection.m */; };
+		C927724D123D6207000AD491 /* SessionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C927724C123D6207000AD491 /* SessionHelper.m */; };
+		C927724E123D6207000AD491 /* SessionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C927724C123D6207000AD491 /* SessionHelper.m */; };
+		C927724F123D6207000AD491 /* SessionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C927724C123D6207000AD491 /* SessionHelper.m */; };
+		C92772CD123D9E82000AD491 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92772C9123D9E82000AD491 /* ScheduleViewController.m */; };
+		C92772CE123D9E82000AD491 /* ScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C92772CA123D9E82000AD491 /* ScheduleViewController.xib */; };
+		C92772CF123D9E82000AD491 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92772C9123D9E82000AD491 /* ScheduleViewController.m */; };
+		C92772D0123D9E82000AD491 /* ScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C92772CA123D9E82000AD491 /* ScheduleViewController.xib */; };
+		C9277387123DA8D2000AD491 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9277386123DA8D2000AD491 /* libOCMock.a */; };
+		C927738E123DA8DA000AD491 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9277386123DA8D2000AD491 /* libOCMock.a */; };
+		C9E1A327124027550050A6E0 /* ScheduleViewControllerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E1A326124027550050A6E0 /* ScheduleViewControllerAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C927714D123D4296000AD491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9277130123D4237000AD491;
+			remoteInfo = ApplicationTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C92772FD123DA4E3000AD491 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(BUILT_PRODUCTS_DIR)";
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AgileDevPracticesEast2010AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgileDevPracticesEast2010AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AgileDevPracticesEast2010AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgileDevPracticesEast2010AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* AgileDevPracticesEast2010.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgileDevPracticesEast2010.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C3AD890F43EF2300507BA6 /* AgileDevPracticesEast2010.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = AgileDevPracticesEast2010.xcdatamodel; sourceTree = "<group>"; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* AgileDevPracticesEast2010_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgileDevPracticesEast2010_Prefix.pch; sourceTree = "<group>"; };
+		77227E051256AF5C005E5EC8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		772A821E1244462C00028CFE /* libyajl_s.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libyajl_s.a; path = Libraries/libyajl_s.a; sourceTree = "<group>"; };
+		772A823C124447F400028CFE /* MGTwitterEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTwitterEngine.h; sourceTree = "<group>"; };
+		772A823D124447F400028CFE /* MGTwitterEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTwitterEngine.m; sourceTree = "<group>"; };
+		772A823E124447F400028CFE /* MGTwitterEngineDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTwitterEngineDelegate.h; sourceTree = "<group>"; };
+		772A823F124447F400028CFE /* MGTwitterEngineGlobalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTwitterEngineGlobalHeader.h; sourceTree = "<group>"; };
+		772A8240124447F400028CFE /* MGTwitterHTTPURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTwitterHTTPURLConnection.h; sourceTree = "<group>"; };
+		772A8241124447F400028CFE /* MGTwitterHTTPURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTwitterHTTPURLConnection.m; sourceTree = "<group>"; };
+		772A8246124447F400028CFE /* MGTwitterMessagesYAJLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTwitterMessagesYAJLParser.h; sourceTree = "<group>"; };
+		772A8247124447F400028CFE /* MGTwitterMessagesYAJLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTwitterMessagesYAJLParser.m; sourceTree = "<group>"; };
+		772A824A124447F400028CFE /* MGTwitterMiscYAJLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTwitterMiscYAJLParser.h; sourceTree = "<group>"; };
+		772A824B124447F400028CFE /* MGTwitterMiscYAJLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTwitterMiscYAJLParser.m; sourceTree = "<group>"; };
+		772A824C124447F400028CFE /* MGTwitterParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTwitterParserDelegate.h; sourceTree = "<group>"; };
+		772A824D124447F400028CFE /* MGTwitterRequestTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTwitterRequestTypes.h; sourceTree = "<group>"; };
+		772A824E124447F400028CFE /* MGTwitterSearchYAJLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTwitterSearchYAJLParser.h; sourceTree = "<group>"; };
+		772A824F124447F400028CFE /* MGTwitterSearchYAJLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTwitterSearchYAJLParser.m; sourceTree = "<group>"; };
+		772A8252124447F400028CFE /* MGTwitterStatusesYAJLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTwitterStatusesYAJLParser.h; sourceTree = "<group>"; };
+		772A8253124447F400028CFE /* MGTwitterStatusesYAJLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTwitterStatusesYAJLParser.m; sourceTree = "<group>"; };
+		772A8256124447F400028CFE /* MGTwitterUsersYAJLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTwitterUsersYAJLParser.h; sourceTree = "<group>"; };
+		772A8257124447F400028CFE /* MGTwitterUsersYAJLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTwitterUsersYAJLParser.m; sourceTree = "<group>"; };
+		772A825A124447F400028CFE /* MGTwitterYAJLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTwitterYAJLParser.h; sourceTree = "<group>"; };
+		772A825B124447F400028CFE /* MGTwitterYAJLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTwitterYAJLParser.m; sourceTree = "<group>"; };
+		772A825C124447F400028CFE /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		772A825D124447F400028CFE /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		772A825E124447F400028CFE /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
+		772A825F124447F400028CFE /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
+		772A84291245085900028CFE /* Xcode324iOS41TestSuiteWorkaround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Xcode324iOS41TestSuiteWorkaround.m; sourceTree = "<group>"; };
+		772A864412451A0700028CFE /* AppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		772A864512451A0800028CFE /* AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppTests-Info.plist"; sourceTree = "<group>"; };
+		7769E57212455573004E193F /* 01-refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-refresh.png"; sourceTree = "<group>"; };
+		778F603D124AC90600B324CB /* dateImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dateImage.png; sourceTree = "<group>"; };
+		778F610A124C0CE100B324CB /* SessionListFetchedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionListFetchedViewController.h; sourceTree = "<group>"; };
+		778F610B124C0CE100B324CB /* SessionListFetchedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionListFetchedViewController.m; sourceTree = "<group>"; };
+		778F610C124C0CE100B324CB /* SessionListFetchedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SessionListFetchedViewController.xib; sourceTree = "<group>"; };
+		77A84CEC1241777000F16CA0 /* SessionListViewControllerAppTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionListViewControllerAppTests.h; sourceTree = "<group>"; };
+		77A84CED1241777000F16CA0 /* SessionListViewControllerAppTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionListViewControllerAppTests.m; sourceTree = "<group>"; };
+		77BFF3B81242CFAB00C08D21 /* adpEastLogoLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adpEastLogoLarge.png; sourceTree = "<group>"; };
+		77BFF3B91242CFAB00C08D21 /* scrollBackground.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = scrollBackground.bmp; sourceTree = "<group>"; };
+		77BFF4321242DD1200C08D21 /* SessionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionDetailViewController.h; sourceTree = "<group>"; };
+		77BFF4331242DD1200C08D21 /* SessionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionDetailViewController.m; sourceTree = "<group>"; };
+		77BFF4341242DD1200C08D21 /* SessionDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SessionDetailViewController.xib; sourceTree = "<group>"; };
+		77BFF47E1242E20700C08D21 /* SessionDetailProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionDetailProtocol.h; sourceTree = "<group>"; };
+		77BFF4911242E35E00C08D21 /* SessionListProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionListProtocol.h; sourceTree = "<group>"; };
+		77BFF4EB1242EF5000C08D21 /* 111-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user.png"; sourceTree = "<group>"; };
+		77BFF5AE1243C7B400C08D21 /* SessionDetailViewControllerAppTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionDetailViewControllerAppTests.h; sourceTree = "<group>"; };
+		77BFF5AF1243C7B400C08D21 /* SessionDetailViewControllerAppTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionDetailViewControllerAppTests.m; sourceTree = "<group>"; };
+		77BFF6671243D5E200C08D21 /* SpeakerDetailProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerDetailProtocol.h; sourceTree = "<group>"; };
+		77BFF66C1243D65D00C08D21 /* SpeakerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerDetailViewController.h; sourceTree = "<group>"; };
+		77BFF66D1243D65D00C08D21 /* SpeakerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakerDetailViewController.m; sourceTree = "<group>"; };
+		77BFF66E1243D65D00C08D21 /* SpeakerDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpeakerDetailViewController.xib; sourceTree = "<group>"; };
+		77BFF6EE1243DD4900C08D21 /* Speaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Speaker.h; sourceTree = "<group>"; };
+		77BFF6EF1243DD4900C08D21 /* Speaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Speaker.m; sourceTree = "<group>"; };
+		77BFF7B01243FAAE00C08D21 /* SpeakerDetailViewControllerAppTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerDetailViewControllerAppTests.h; sourceTree = "<group>"; };
+		77BFF7B11243FAAE00C08D21 /* SpeakerDetailViewControllerAppTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakerDetailViewControllerAppTests.m; sourceTree = "<group>"; };
+		77BFF9741244394900C08D21 /* SA_OAuthTwitterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_OAuthTwitterController.h; sourceTree = "<group>"; };
+		77BFF9751244394900C08D21 /* SA_OAuthTwitterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SA_OAuthTwitterController.m; sourceTree = "<group>"; };
+		77BFF9761244394900C08D21 /* SA_OAuthTwitterEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_OAuthTwitterEngine.h; sourceTree = "<group>"; };
+		77BFF9771244394900C08D21 /* SA_OAuthTwitterEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SA_OAuthTwitterEngine.m; sourceTree = "<group>"; };
+		77BFF9781244394900C08D21 /* twitter_load.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_load.png; sourceTree = "<group>"; };
+		77BFF9821244396700C08D21 /* libOAuth.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOAuth.a; path = Libraries/libOAuth.a; sourceTree = "<group>"; };
+		77BFF99D12443C6300C08D21 /* TwitterFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterFeedViewController.h; sourceTree = "<group>"; };
+		77BFF99E12443C6300C08D21 /* TwitterFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterFeedViewController.m; sourceTree = "<group>"; };
+		77BFF99F12443C6300C08D21 /* TwitterFeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwitterFeedViewController.xib; sourceTree = "<group>"; };
+		77FD7F411240403D00A3AE49 /* 23-bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "23-bird.png"; sourceTree = "<group>"; };
+		77FD7F421240403D00A3AE49 /* 83-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar.png"; sourceTree = "<group>"; };
+		77FD7F431240403D00A3AE49 /* ADPEastLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ADPEastLogo.jpg; sourceTree = "<group>"; };
+		77FD7F511240454D00A3AE49 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		77FD7F581240465A00A3AE49 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		77FD7FE21240532A00A3AE49 /* ADPEast2010.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ADPEast2010.sqlite; sourceTree = "<group>"; };
+		77FD7FFA124055CB00A3AE49 /* SessionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionListViewController.h; sourceTree = "<group>"; };
+		77FD7FFB124055CB00A3AE49 /* SessionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionListViewController.m; sourceTree = "<group>"; };
+		77FD7FFC124055CB00A3AE49 /* SessionListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SessionListViewController.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* AgileDevPracticesEast2010-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AgileDevPracticesEast2010-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C9277110123D41FD000AD491 /* LogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9277111123D41FD000AD491 /* LogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogicTests-Info.plist"; sourceTree = "<group>"; };
+		C9277131123D4237000AD491 /* ApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9277132123D4237000AD491 /* ApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		C9277145123D423F000AD491 /* AgileDevPracticesEast2010Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgileDevPracticesEast2010Testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9277147123D423F000AD491 /* AgileDevPracticesEast2010-Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AgileDevPracticesEast2010-Info copy.plist"; sourceTree = "<group>"; };
+		C9277168123D43AF000AD491 /* SessionCollectionUnitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionCollectionUnitTests.h; sourceTree = "<group>"; };
+		C9277169123D43AF000AD491 /* SessionCollectionUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionCollectionUnitTests.m; sourceTree = "<group>"; };
+		C9277176123D4502000AD491 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		C9277177123D4502000AD491 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		C9277178123D4502000AD491 /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		C9277179123D4502000AD491 /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
+		C9277180123D453A000AD491 /* SpeakerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerProtocol.h; sourceTree = "<group>"; };
+		C9277181123D45B2000AD491 /* SessionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionProtocol.h; sourceTree = "<group>"; };
+		C9277182123D4653000AD491 /* TrackProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackProtocol.h; sourceTree = "<group>"; };
+		C9277184123D47EC000AD491 /* SessionMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionMock.h; sourceTree = "<group>"; };
+		C9277185123D47EC000AD491 /* SessionMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionMock.m; sourceTree = "<group>"; };
+		C927719F123D4969000AD491 /* SessionCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionCollection.h; sourceTree = "<group>"; };
+		C92771A0123D4969000AD491 /* SessionCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionCollection.m; sourceTree = "<group>"; };
+		C927724B123D6207000AD491 /* SessionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionHelper.h; sourceTree = "<group>"; };
+		C927724C123D6207000AD491 /* SessionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionHelper.m; sourceTree = "<group>"; };
+		C92772C5123D9DA2000AD491 /* ScheduleViewControllerUnitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewControllerUnitTests.h; sourceTree = "<group>"; };
+		C92772C6123D9DA2000AD491 /* ScheduleViewControllerUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewControllerUnitTests.m; sourceTree = "<group>"; };
+		C92772C8123D9E82000AD491 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		C92772C9123D9E82000AD491 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		C92772CA123D9E82000AD491 /* ScheduleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleViewController.xib; sourceTree = "<group>"; };
+		C9277386123DA8D2000AD491 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = Libraries/libOCMock.a; sourceTree = "<group>"; };
+		C9E1A325124027550050A6E0 /* ScheduleViewControllerAppTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewControllerAppTests.h; sourceTree = "<group>"; };
+		C9E1A326124027550050A6E0 /* ScheduleViewControllerAppTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewControllerAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+				77BFF9841244396700C08D21 /* libOAuth.a in Frameworks */,
+				772A821F1244462C00028CFE /* libyajl_s.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772A864112451A0700028CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772A867112451ADB00028CFE /* libyajl_s.a in Frameworks */,
+				772A867212451ADB00028CFE /* libOCMock.a in Frameworks */,
+				772A867312451ADB00028CFE /* libOAuth.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C927710D123D41FD000AD491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C927738E123DA8DA000AD491 /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C927712E123D4237000AD491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772A874612452A9D00028CFE /* libyajl_s.a in Frameworks */,
+				77FD7E6112402FDE00A3AE49 /* libOCMock.a in Frameworks */,
+				77BFF9831244396700C08D21 /* libOAuth.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C927713D123D423F000AD491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772A874712452AA200028CFE /* libyajl_s.a in Frameworks */,
+				C927713E123D423F000AD491 /* Foundation.framework in Frameworks */,
+				C927713F123D423F000AD491 /* UIKit.framework in Frameworks */,
+				C9277140123D423F000AD491 /* CoreGraphics.framework in Frameworks */,
+				C9277141123D423F000AD491 /* CoreData.framework in Frameworks */,
+				C9277387123DA8D2000AD491 /* libOCMock.a in Frameworks */,
+				77BFF9851244396700C08D21 /* libOAuth.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C9277183123D47D8000AD491 /* Mocks */,
+				C9277154123D431E000AD491 /* Controllers */,
+				C9277153123D4303000AD491 /* Models */,
+				C9277152123D42F5000AD491 /* Application Test Suites */,
+				C9277151123D42E7000AD491 /* Logic Test Suites */,
+				1D3623240D0F684500981E51 /* AgileDevPracticesEast2010AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AgileDevPracticesEast2010AppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* AgileDevPracticesEast2010.app */,
+				C9277110123D41FD000AD491 /* LogicTests.octest */,
+				C9277131123D4237000AD491 /* ApplicationTests.octest */,
+				C9277145123D423F000AD491 /* AgileDevPracticesEast2010Testing.app */,
+				772A864412451A0700028CFE /* AppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				772A823B124447F400028CFE /* MGTwitterEngine */,
+				77BFF9731244394900C08D21 /* SAOAuthTwitterEngine */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				C9277111123D41FD000AD491 /* LogicTests-Info.plist */,
+				C9277132123D4237000AD491 /* ApplicationTests-Info.plist */,
+				772A821E1244462C00028CFE /* libyajl_s.a */,
+				772A864512451A0800028CFE /* AppTests-Info.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* AgileDevPracticesEast2010_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				778F603D124AC90600B324CB /* dateImage.png */,
+				7769E57212455573004E193F /* 01-refresh.png */,
+				77BFF4EB1242EF5000C08D21 /* 111-user.png */,
+				77BFF3B81242CFAB00C08D21 /* adpEastLogoLarge.png */,
+				77BFF3B91242CFAB00C08D21 /* scrollBackground.bmp */,
+				77FD7FE21240532A00A3AE49 /* ADPEast2010.sqlite */,
+				77FD7F581240465A00A3AE49 /* Icon@2x.png */,
+				77FD7F511240454D00A3AE49 /* Icon.png */,
+				77FD7F411240403D00A3AE49 /* 23-bird.png */,
+				77FD7F421240403D00A3AE49 /* 83-calendar.png */,
+				77FD7F431240403D00A3AE49 /* ADPEastLogo.jpg */,
+				2819305F112F816700ECF9B4 /* AgileDevPracticesEast2010.xcdatamodeld */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* AgileDevPracticesEast2010-Info.plist */,
+				C9277147123D423F000AD491 /* AgileDevPracticesEast2010-Info copy.plist */,
+				77227E051256AF5C005E5EC8 /* Default.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77BFF9821244396700C08D21 /* libOAuth.a */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+				C9277386123DA8D2000AD491 /* libOCMock.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		772A823B124447F400028CFE /* MGTwitterEngine */ = {
+			isa = PBXGroup;
+			children = (
+				772A823C124447F400028CFE /* MGTwitterEngine.h */,
+				772A823D124447F400028CFE /* MGTwitterEngine.m */,
+				772A823E124447F400028CFE /* MGTwitterEngineDelegate.h */,
+				772A823F124447F400028CFE /* MGTwitterEngineGlobalHeader.h */,
+				772A8240124447F400028CFE /* MGTwitterHTTPURLConnection.h */,
+				772A8241124447F400028CFE /* MGTwitterHTTPURLConnection.m */,
+				772A8246124447F400028CFE /* MGTwitterMessagesYAJLParser.h */,
+				772A8247124447F400028CFE /* MGTwitterMessagesYAJLParser.m */,
+				772A824A124447F400028CFE /* MGTwitterMiscYAJLParser.h */,
+				772A824B124447F400028CFE /* MGTwitterMiscYAJLParser.m */,
+				772A824C124447F400028CFE /* MGTwitterParserDelegate.h */,
+				772A824D124447F400028CFE /* MGTwitterRequestTypes.h */,
+				772A824E124447F400028CFE /* MGTwitterSearchYAJLParser.h */,
+				772A824F124447F400028CFE /* MGTwitterSearchYAJLParser.m */,
+				772A8252124447F400028CFE /* MGTwitterStatusesYAJLParser.h */,
+				772A8253124447F400028CFE /* MGTwitterStatusesYAJLParser.m */,
+				772A8256124447F400028CFE /* MGTwitterUsersYAJLParser.h */,
+				772A8257124447F400028CFE /* MGTwitterUsersYAJLParser.m */,
+				772A825A124447F400028CFE /* MGTwitterYAJLParser.h */,
+				772A825B124447F400028CFE /* MGTwitterYAJLParser.m */,
+				772A825C124447F400028CFE /* NSData+Base64.h */,
+				772A825D124447F400028CFE /* NSData+Base64.m */,
+				772A825E124447F400028CFE /* NSString+UUID.h */,
+				772A825F124447F400028CFE /* NSString+UUID.m */,
+			);
+			name = MGTwitterEngine;
+			path = Classes/MGTwitterEngine;
+			sourceTree = "<group>";
+		};
+		778F6109124C0CC100B324CB /* SessionListFetched */ = {
+			isa = PBXGroup;
+			children = (
+				778F610A124C0CE100B324CB /* SessionListFetchedViewController.h */,
+				778F610B124C0CE100B324CB /* SessionListFetchedViewController.m */,
+				778F610C124C0CE100B324CB /* SessionListFetchedViewController.xib */,
+			);
+			name = SessionListFetched;
+			sourceTree = "<group>";
+		};
+		77BFF6681243D5FE00C08D21 /* ScheduleView */ = {
+			isa = PBXGroup;
+			children = (
+				C92772C8123D9E82000AD491 /* ScheduleViewController.h */,
+				C92772C9123D9E82000AD491 /* ScheduleViewController.m */,
+				C92772CA123D9E82000AD491 /* ScheduleViewController.xib */,
+			);
+			name = ScheduleView;
+			sourceTree = "<group>";
+		};
+		77BFF6691243D60A00C08D21 /* SessionList */ = {
+			isa = PBXGroup;
+			children = (
+				77FD7FFA124055CB00A3AE49 /* SessionListViewController.h */,
+				77FD7FFB124055CB00A3AE49 /* SessionListViewController.m */,
+				77FD7FFC124055CB00A3AE49 /* SessionListViewController.xib */,
+			);
+			name = SessionList;
+			sourceTree = "<group>";
+		};
+		77BFF66A1243D61500C08D21 /* SessionDetail */ = {
+			isa = PBXGroup;
+			children = (
+				77BFF4321242DD1200C08D21 /* SessionDetailViewController.h */,
+				77BFF4331242DD1200C08D21 /* SessionDetailViewController.m */,
+				77BFF4341242DD1200C08D21 /* SessionDetailViewController.xib */,
+			);
+			name = SessionDetail;
+			sourceTree = "<group>";
+		};
+		77BFF66B1243D62500C08D21 /* SpeakerDetail */ = {
+			isa = PBXGroup;
+			children = (
+				77BFF66C1243D65D00C08D21 /* SpeakerDetailViewController.h */,
+				77BFF66D1243D65D00C08D21 /* SpeakerDetailViewController.m */,
+				77BFF66E1243D65D00C08D21 /* SpeakerDetailViewController.xib */,
+			);
+			name = SpeakerDetail;
+			sourceTree = "<group>";
+		};
+		77BFF9731244394900C08D21 /* SAOAuthTwitterEngine */ = {
+			isa = PBXGroup;
+			children = (
+				77BFF9741244394900C08D21 /* SA_OAuthTwitterController.h */,
+				77BFF9751244394900C08D21 /* SA_OAuthTwitterController.m */,
+				77BFF9761244394900C08D21 /* SA_OAuthTwitterEngine.h */,
+				77BFF9771244394900C08D21 /* SA_OAuthTwitterEngine.m */,
+				77BFF9781244394900C08D21 /* twitter_load.png */,
+			);
+			name = SAOAuthTwitterEngine;
+			path = Classes/SAOAuthTwitterEngine;
+			sourceTree = "<group>";
+		};
+		77BFF99C12443BB500C08D21 /* TwitterFeed */ = {
+			isa = PBXGroup;
+			children = (
+				77BFF99D12443C6300C08D21 /* TwitterFeedViewController.h */,
+				77BFF99E12443C6300C08D21 /* TwitterFeedViewController.m */,
+				77BFF99F12443C6300C08D21 /* TwitterFeedViewController.xib */,
+			);
+			name = TwitterFeed;
+			sourceTree = "<group>";
+		};
+		C9277151123D42E7000AD491 /* Logic Test Suites */ = {
+			isa = PBXGroup;
+			children = (
+				772A84291245085900028CFE /* Xcode324iOS41TestSuiteWorkaround.m */,
+				C9277168123D43AF000AD491 /* SessionCollectionUnitTests.h */,
+				C9277169123D43AF000AD491 /* SessionCollectionUnitTests.m */,
+				C92772C5123D9DA2000AD491 /* ScheduleViewControllerUnitTests.h */,
+				C92772C6123D9DA2000AD491 /* ScheduleViewControllerUnitTests.m */,
+			);
+			name = "Logic Test Suites";
+			sourceTree = "<group>";
+		};
+		C9277152123D42F5000AD491 /* Application Test Suites */ = {
+			isa = PBXGroup;
+			children = (
+				C9E1A325124027550050A6E0 /* ScheduleViewControllerAppTests.h */,
+				C9E1A326124027550050A6E0 /* ScheduleViewControllerAppTests.m */,
+				77A84CEC1241777000F16CA0 /* SessionListViewControllerAppTests.h */,
+				77A84CED1241777000F16CA0 /* SessionListViewControllerAppTests.m */,
+				77BFF5AE1243C7B400C08D21 /* SessionDetailViewControllerAppTests.h */,
+				77BFF5AF1243C7B400C08D21 /* SessionDetailViewControllerAppTests.m */,
+				77BFF7B01243FAAE00C08D21 /* SpeakerDetailViewControllerAppTests.h */,
+				77BFF7B11243FAAE00C08D21 /* SpeakerDetailViewControllerAppTests.m */,
+			);
+			name = "Application Test Suites";
+			sourceTree = "<group>";
+		};
+		C9277153123D4303000AD491 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9277176123D4502000AD491 /* Track.h */,
+				C9277177123D4502000AD491 /* Track.m */,
+				C9277178123D4502000AD491 /* Session.h */,
+				C9277179123D4502000AD491 /* Session.m */,
+				C9277180123D453A000AD491 /* SpeakerProtocol.h */,
+				C9277181123D45B2000AD491 /* SessionProtocol.h */,
+				C9277182123D4653000AD491 /* TrackProtocol.h */,
+				C927719F123D4969000AD491 /* SessionCollection.h */,
+				C92771A0123D4969000AD491 /* SessionCollection.m */,
+				C927724B123D6207000AD491 /* SessionHelper.h */,
+				C927724C123D6207000AD491 /* SessionHelper.m */,
+				77BFF6EE1243DD4900C08D21 /* Speaker.h */,
+				77BFF6EF1243DD4900C08D21 /* Speaker.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C9277154123D431E000AD491 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				778F6109124C0CC100B324CB /* SessionListFetched */,
+				77BFF99C12443BB500C08D21 /* TwitterFeed */,
+				77BFF66B1243D62500C08D21 /* SpeakerDetail */,
+				77BFF66A1243D61500C08D21 /* SessionDetail */,
+				77BFF6691243D60A00C08D21 /* SessionList */,
+				77BFF6681243D5FE00C08D21 /* ScheduleView */,
+				77BFF47E1242E20700C08D21 /* SessionDetailProtocol.h */,
+				77BFF4911242E35E00C08D21 /* SessionListProtocol.h */,
+				77BFF6671243D5E200C08D21 /* SpeakerDetailProtocol.h */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C9277183123D47D8000AD491 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				C9277184123D47EC000AD491 /* SessionMock.h */,
+				C9277185123D47EC000AD491 /* SessionMock.m */,
+			);
+			name = Mocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* AgileDevPracticesEast2010 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AgileDevPracticesEast2010" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgileDevPracticesEast2010;
+			productName = AgileDevPracticesEast2010;
+			productReference = 1D6058910D05DD3D006BFB54 /* AgileDevPracticesEast2010.app */;
+			productType = "com.apple.product-type.application";
+		};
+		772A864312451A0700028CFE /* AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772A864812451A0800028CFE /* Build configuration list for PBXNativeTarget "AppTests" */;
+			buildPhases = (
+				772A863F12451A0700028CFE /* Resources */,
+				772A864012451A0700028CFE /* Sources */,
+				772A864112451A0700028CFE /* Frameworks */,
+				772A864212451A0700028CFE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppTests;
+			productName = AppTests;
+			productReference = 772A864412451A0700028CFE /* AppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C927710F123D41FD000AD491 /* LogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9277114123D41FF000AD491 /* Build configuration list for PBXNativeTarget "LogicTests" */;
+			buildPhases = (
+				C927710B123D41FD000AD491 /* Resources */,
+				C927710C123D41FD000AD491 /* Sources */,
+				C92772FD123DA4E3000AD491 /* CopyFiles */,
+				C927710D123D41FD000AD491 /* Frameworks */,
+				C927710E123D41FD000AD491 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogicTests;
+			productName = LogicTests;
+			productReference = C9277110123D41FD000AD491 /* LogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C9277130123D4237000AD491 /* ApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9277135123D4238000AD491 /* Build configuration list for PBXNativeTarget "ApplicationTests" */;
+			buildPhases = (
+				C927712C123D4237000AD491 /* Resources */,
+				C927712D123D4237000AD491 /* Sources */,
+				C927712E123D4237000AD491 /* Frameworks */,
+				C927712F123D4237000AD491 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApplicationTests;
+			productName = ApplicationTests;
+			productReference = C9277131123D4237000AD491 /* ApplicationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C9277136123D423F000AD491 /* AgileDevPracticesEast2010Testing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9277142123D423F000AD491 /* Build configuration list for PBXNativeTarget "AgileDevPracticesEast2010Testing" */;
+			buildPhases = (
+				C9277137123D423F000AD491 /* Resources */,
+				C9277139123D423F000AD491 /* Sources */,
+				C927713D123D423F000AD491 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C927714E123D4296000AD491 /* PBXTargetDependency */,
+			);
+			name = AgileDevPracticesEast2010Testing;
+			productName = AgileDevPracticesEast2010;
+			productReference = C9277145123D423F000AD491 /* AgileDevPracticesEast2010Testing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AgileDevPracticesEast2010" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* AgileDevPracticesEast2010 */,
+				C927710F123D41FD000AD491 /* LogicTests */,
+				C9277130123D4237000AD491 /* ApplicationTests */,
+				C9277136123D423F000AD491 /* AgileDevPracticesEast2010Testing */,
+				772A864312451A0700028CFE /* AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				C92772CE123D9E82000AD491 /* ScheduleViewController.xib in Resources */,
+				77FD7F471240403D00A3AE49 /* 23-bird.png in Resources */,
+				77FD7F481240403D00A3AE49 /* 83-calendar.png in Resources */,
+				77FD7F491240403D00A3AE49 /* ADPEastLogo.jpg in Resources */,
+				77FD7F531240454D00A3AE49 /* Icon.png in Resources */,
+				77FD7F5A1240465A00A3AE49 /* Icon@2x.png in Resources */,
+				77FD7FE41240532A00A3AE49 /* ADPEast2010.sqlite in Resources */,
+				77FD8000124055CB00A3AE49 /* SessionListViewController.xib in Resources */,
+				77BFF3BC1242CFAB00C08D21 /* adpEastLogoLarge.png in Resources */,
+				77BFF3BD1242CFAB00C08D21 /* scrollBackground.bmp in Resources */,
+				77BFF4381242DD1200C08D21 /* SessionDetailViewController.xib in Resources */,
+				77BFF4EC1242EF5000C08D21 /* 111-user.png in Resources */,
+				77BFF6721243D65D00C08D21 /* SpeakerDetailViewController.xib in Resources */,
+				77BFF97E1244394900C08D21 /* twitter_load.png in Resources */,
+				77BFF9A112443C6300C08D21 /* TwitterFeedViewController.xib in Resources */,
+				7769E57512455573004E193F /* 01-refresh.png in Resources */,
+				778F6040124AC90600B324CB /* dateImage.png in Resources */,
+				778F6110124C0CE100B324CB /* SessionListFetchedViewController.xib in Resources */,
+				77227E061256AF5C005E5EC8 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772A863F12451A0700028CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772A866C12451ACD00028CFE /* SessionListViewController.xib in Resources */,
+				772A866D12451ACD00028CFE /* SpeakerDetailViewController.xib in Resources */,
+				772A866F12451ACD00028CFE /* twitter_load.png in Resources */,
+				772A867012451ACD00028CFE /* TwitterFeedViewController.xib in Resources */,
+				77227E0A1256AF5C005E5EC8 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C927710B123D41FD000AD491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77227E071256AF5C005E5EC8 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C927712C123D4237000AD491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FD8002124055CB00A3AE49 /* SessionListViewController.xib in Resources */,
+				77BFF6701243D65D00C08D21 /* SpeakerDetailViewController.xib in Resources */,
+				77BFF97B1244394900C08D21 /* twitter_load.png in Resources */,
+				7769E57412455573004E193F /* 01-refresh.png in Resources */,
+				778F603F124AC90600B324CB /* dateImage.png in Resources */,
+				778F610E124C0CE100B324CB /* SessionListFetchedViewController.xib in Resources */,
+				77227E081256AF5C005E5EC8 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9277137123D423F000AD491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FD7F8E12404A3200A3AE49 /* ApplicationTests.octest in Resources */,
+				C9277138123D423F000AD491 /* MainWindow.xib in Resources */,
+				C92772D0123D9E82000AD491 /* ScheduleViewController.xib in Resources */,
+				77FD7F441240403D00A3AE49 /* 23-bird.png in Resources */,
+				77FD7F451240403D00A3AE49 /* 83-calendar.png in Resources */,
+				77FD7F461240403D00A3AE49 /* ADPEastLogo.jpg in Resources */,
+				77FD7F521240454D00A3AE49 /* Icon.png in Resources */,
+				77FD7F591240465A00A3AE49 /* Icon@2x.png in Resources */,
+				77FD7FE31240532A00A3AE49 /* ADPEast2010.sqlite in Resources */,
+				77FD7FFE124055CB00A3AE49 /* SessionListViewController.xib in Resources */,
+				77BFF3BA1242CFAB00C08D21 /* adpEastLogoLarge.png in Resources */,
+				77BFF3BB1242CFAB00C08D21 /* scrollBackground.bmp in Resources */,
+				77BFF4361242DD1200C08D21 /* SessionDetailViewController.xib in Resources */,
+				77BFF4ED1242EF5000C08D21 /* 111-user.png in Resources */,
+				77BFF6741243D65D00C08D21 /* SpeakerDetailViewController.xib in Resources */,
+				77BFF9811244394900C08D21 /* twitter_load.png in Resources */,
+				77BFF9A312443C6300C08D21 /* TwitterFeedViewController.xib in Resources */,
+				7769E57312455573004E193F /* 01-refresh.png in Resources */,
+				778F603E124AC90600B324CB /* dateImage.png in Resources */,
+				778F6112124C0CE100B324CB /* SessionListFetchedViewController.xib in Resources */,
+				77227E091256AF5C005E5EC8 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		772A864212451A0700028CFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		C927710E123D41FD000AD491 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		C927712F123D4237000AD491 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AgileDevPracticesEast2010AppDelegate.m in Sources */,
+				28193060112F816700ECF9B4 /* AgileDevPracticesEast2010.xcdatamodeld in Sources */,
+				C927717B123D4502000AD491 /* Track.m in Sources */,
+				C927717C123D4502000AD491 /* Session.m in Sources */,
+				C92771A1123D4969000AD491 /* SessionCollection.m in Sources */,
+				C927724D123D6207000AD491 /* SessionHelper.m in Sources */,
+				C92772CD123D9E82000AD491 /* ScheduleViewController.m in Sources */,
+				77FD7FFF124055CB00A3AE49 /* SessionListViewController.m in Sources */,
+				77BFF4371242DD1200C08D21 /* SessionDetailViewController.m in Sources */,
+				77BFF6711243D65D00C08D21 /* SpeakerDetailViewController.m in Sources */,
+				77BFF6F11243DD4900C08D21 /* Speaker.m in Sources */,
+				77BFF97C1244394900C08D21 /* SA_OAuthTwitterController.m in Sources */,
+				77BFF97D1244394900C08D21 /* SA_OAuthTwitterEngine.m in Sources */,
+				77BFF9A012443C6300C08D21 /* TwitterFeedViewController.m in Sources */,
+				772A8260124447F400028CFE /* MGTwitterEngine.m in Sources */,
+				772A8261124447F400028CFE /* MGTwitterHTTPURLConnection.m in Sources */,
+				772A8264124447F400028CFE /* MGTwitterMessagesYAJLParser.m in Sources */,
+				772A8266124447F400028CFE /* MGTwitterMiscYAJLParser.m in Sources */,
+				772A8267124447F400028CFE /* MGTwitterSearchYAJLParser.m in Sources */,
+				772A8269124447F400028CFE /* MGTwitterStatusesYAJLParser.m in Sources */,
+				772A826B124447F400028CFE /* MGTwitterUsersYAJLParser.m in Sources */,
+				772A826D124447F400028CFE /* MGTwitterYAJLParser.m in Sources */,
+				772A826E124447F400028CFE /* NSData+Base64.m in Sources */,
+				772A826F124447F400028CFE /* NSString+UUID.m in Sources */,
+				778F610F124C0CE100B324CB /* SessionListFetchedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772A864012451A0700028CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772A867B12451C7B00028CFE /* SA_OAuthTwitterEngine.m in Sources */,
+				772A867812451C6600028CFE /* SA_OAuthTwitterController.m in Sources */,
+				772A865012451AC000028CFE /* SessionMock.m in Sources */,
+				772A865112451AC000028CFE /* SessionDetailViewController.m in Sources */,
+				772A865212451AC000028CFE /* SessionHelper.m in Sources */,
+				772A865312451AC000028CFE /* SessionCollection.m in Sources */,
+				772A865412451AC000028CFE /* ScheduleViewController.m in Sources */,
+				772A865512451AC000028CFE /* ScheduleViewControllerAppTests.m in Sources */,
+				772A865612451AC000028CFE /* SessionListViewController.m in Sources */,
+				772A865712451AC000028CFE /* SessionListViewControllerAppTests.m in Sources */,
+				772A865812451AC000028CFE /* SessionDetailViewControllerAppTests.m in Sources */,
+				772A865912451AC000028CFE /* SpeakerDetailViewController.m in Sources */,
+				772A865A12451AC000028CFE /* SpeakerDetailViewControllerAppTests.m in Sources */,
+				772A865D12451AC000028CFE /* TwitterFeedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C927710C123D41FD000AD491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772A86B9124523DD00028CFE /* Xcode324iOS41TestSuiteWorkaround.m in Sources */,
+				C927716A123D43AF000AD491 /* SessionCollectionUnitTests.m in Sources */,
+				C9277187123D47EC000AD491 /* SessionMock.m in Sources */,
+				C92771A2123D4969000AD491 /* SessionCollection.m in Sources */,
+				C927724F123D6207000AD491 /* SessionHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C927712D123D4237000AD491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772A86D51245269D00028CFE /* SA_OAuthTwitterController.m in Sources */,
+				772A86D61245269D00028CFE /* SA_OAuthTwitterEngine.m in Sources */,
+				772A86D71245269D00028CFE /* TwitterFeedViewController.m in Sources */,
+				772A86D81245269D00028CFE /* MGTwitterEngine.m in Sources */,
+				772A86D91245269D00028CFE /* MGTwitterHTTPURLConnection.m in Sources */,
+				772A86DA1245269D00028CFE /* MGTwitterMessagesYAJLParser.m in Sources */,
+				772A86DB1245269D00028CFE /* MGTwitterMiscYAJLParser.m in Sources */,
+				772A86DC1245269D00028CFE /* MGTwitterSearchYAJLParser.m in Sources */,
+				772A86DD1245269D00028CFE /* MGTwitterStatusesYAJLParser.m in Sources */,
+				772A86DE1245269D00028CFE /* MGTwitterUsersYAJLParser.m in Sources */,
+				772A86DF1245269D00028CFE /* MGTwitterYAJLParser.m in Sources */,
+				772A86E01245269D00028CFE /* NSData+Base64.m in Sources */,
+				772A86E11245269D00028CFE /* NSString+UUID.m in Sources */,
+				77BFF6391243D0E900C08D21 /* SessionMock.m in Sources */,
+				77BFF44A1242DE3D00C08D21 /* SessionDetailViewController.m in Sources */,
+				77FD7F3112403E5500A3AE49 /* SessionHelper.m in Sources */,
+				77FD7F2612403DFD00A3AE49 /* SessionCollection.m in Sources */,
+				77FD7EF8124036DC00A3AE49 /* ScheduleViewController.m in Sources */,
+				C9E1A327124027550050A6E0 /* ScheduleViewControllerAppTests.m in Sources */,
+				77FD8001124055CB00A3AE49 /* SessionListViewController.m in Sources */,
+				77A84CF01241777000F16CA0 /* SessionListViewControllerAppTests.m in Sources */,
+				77BFF5B01243C7B400C08D21 /* SessionDetailViewControllerAppTests.m in Sources */,
+				77BFF66F1243D65D00C08D21 /* SpeakerDetailViewController.m in Sources */,
+				77BFF7B21243FAAE00C08D21 /* SpeakerDetailViewControllerAppTests.m in Sources */,
+				778F610D124C0CE100B324CB /* SessionListFetchedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9277139123D423F000AD491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C927713A123D423F000AD491 /* main.m in Sources */,
+				C927713B123D423F000AD491 /* AgileDevPracticesEast2010AppDelegate.m in Sources */,
+				C927713C123D423F000AD491 /* AgileDevPracticesEast2010.xcdatamodeld in Sources */,
+				C927717E123D4502000AD491 /* Track.m in Sources */,
+				C927717F123D4502000AD491 /* Session.m in Sources */,
+				C92771A3123D4969000AD491 /* SessionCollection.m in Sources */,
+				C927724E123D6207000AD491 /* SessionHelper.m in Sources */,
+				C92772CF123D9E82000AD491 /* ScheduleViewController.m in Sources */,
+				77FD7FFD124055CB00A3AE49 /* SessionListViewController.m in Sources */,
+				77BFF4351242DD1200C08D21 /* SessionDetailViewController.m in Sources */,
+				77BFF6731243D65D00C08D21 /* SpeakerDetailViewController.m in Sources */,
+				77BFF6F01243DD4900C08D21 /* Speaker.m in Sources */,
+				77BFF97F1244394900C08D21 /* SA_OAuthTwitterController.m in Sources */,
+				77BFF9801244394900C08D21 /* SA_OAuthTwitterEngine.m in Sources */,
+				77BFF9A212443C6300C08D21 /* TwitterFeedViewController.m in Sources */,
+				772A8270124447F400028CFE /* MGTwitterEngine.m in Sources */,
+				772A8271124447F400028CFE /* MGTwitterHTTPURLConnection.m in Sources */,
+				772A8274124447F400028CFE /* MGTwitterMessagesYAJLParser.m in Sources */,
+				772A8276124447F400028CFE /* MGTwitterMiscYAJLParser.m in Sources */,
+				772A8277124447F400028CFE /* MGTwitterSearchYAJLParser.m in Sources */,
+				772A8279124447F400028CFE /* MGTwitterStatusesYAJLParser.m in Sources */,
+				772A827B124447F400028CFE /* MGTwitterUsersYAJLParser.m in Sources */,
+				772A827D124447F400028CFE /* MGTwitterYAJLParser.m in Sources */,
+				772A827E124447F400028CFE /* NSData+Base64.m in Sources */,
+				772A827F124447F400028CFE /* NSString+UUID.m in Sources */,
+				778F6111124C0CE100B324CB /* SessionListFetchedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C927714E123D4296000AD491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9277130123D4237000AD491 /* ApplicationTests */;
+			targetProxy = C927714D123D4296000AD491 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AgileDevPracticesEast2010_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Libraries/Headers\"",
+					"\"$(SRCROOT)/Libraries/Headers/OAuthConsumer\"",
+				);
+				INFOPLIST_FILE = "AgileDevPracticesEast2010-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
+				PRODUCT_NAME = AgileDevPracticesEast2010;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AgileDevPracticesEast2010_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Libraries/Headers\"",
+					"\"$(SRCROOT)/Libraries/Headers/OAuthConsumer\"",
+				);
+				INFOPLIST_FILE = "AgileDevPracticesEast2010-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
+				PRODUCT_NAME = AgileDevPracticesEast2010;
+				SDKROOT = iphoneos4.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		772A864612451A0800028CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					"\"${SRCROOT}/Libraries/Headers/OAuthConsumer\"",
+					"\"${SRCROOT}/Libraries/Headers\"",
+				);
+				INFOPLIST_FILE = "AppTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				LIBRARY_SEARCH_PATHS = "\"${SRCROOT}/Libraries\"";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = AppTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		772A864712451A0800028CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"${SRCROOT}/Libraries/Headers/OAuthConsumer\"",
+					"\"${SRCROOT}/Libraries/Headers\"",
+				);
+				INFOPLIST_FILE = "AppTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				LIBRARY_SEARCH_PATHS = "\"${SRCROOT}/Libraries\"";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = AppTests;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+		C9277112123D41FF000AD491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Libraries/Headers";
+				INFOPLIST_FILE = "LogicTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+					"-ObjC",
+					"-force_load",
+					"$(PROJECT_DIR)/Libraries/libOCMock.a",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = LogicTests;
+				SDKROOT = iphonesimulator4.1;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C9277113123D41FF000AD491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Libraries/Headers";
+				INFOPLIST_FILE = "LogicTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+					"-ObjC",
+					"-force_load",
+					"$(PROJECT_DIR)/Libraries/libOCMock.a",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = LogicTests;
+				SDKROOT = iphonesimulator4.1;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C9277133123D4238000AD491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_OS_IPHONE=1";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Libraries/Headers\"",
+					"\"$(SRCROOT)/Libraries/Headers/OAuthConsumer\"",
+				);
+				INFOPLIST_FILE = "ApplicationTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/Libraries\"",
+					"\"$(SRCROOT)/Libraries/i386\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+					"-ObjC",
+					"-force_load",
+					"$(PROJECT_DIR)/Libraries/libOCMock.a",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ApplicationTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C9277134123D4238000AD491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_OS_IPHONE=1";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Libraries/Headers\"",
+					"\"$(SRCROOT)/Libraries/Headers/OAuthConsumer\"",
+				);
+				INFOPLIST_FILE = "ApplicationTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/Libraries\"",
+					"\"$(SRCROOT)/Libraries/i386\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+					"-ObjC",
+					"-force_load",
+					"$(PROJECT_DIR)/Libraries/libOCMock.a",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ApplicationTests;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C9277143123D423F000AD491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AgileDevPracticesEast2010_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"\"${SRCROOT}/Libraries/Headers\"",
+					"\"${SRCROOT}/Libraries/Headers/OAuthConsumer\"",
+				);
+				INFOPLIST_FILE = "AgileDevPracticesEast2010-Info copy.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+					"\"$(SRCROOT)/Libraries/i386\"",
+				);
+				OTHER_LDFLAGS = "";
+				PLIST_FILE_OUTPUT_FORMAT = binary;
+				PRODUCT_NAME = AgileDevPracticesEast2010Testing;
+			};
+			name = Debug;
+		};
+		C9277144123D423F000AD491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AgileDevPracticesEast2010_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"\"${SRCROOT}/Libraries/Headers\"",
+					"\"${SRCROOT}/Libraries/Headers/OAuthConsumer\"",
+				);
+				INFOPLIST_FILE = "AgileDevPracticesEast2010-Info copy.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+					"\"$(SRCROOT)/Libraries/i386\"",
+				);
+				OTHER_LDFLAGS = "";
+				PLIST_FILE_OUTPUT_FORMAT = binary;
+				PRODUCT_NAME = AgileDevPracticesEast2010Testing;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AgileDevPracticesEast2010" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		772A864812451A0800028CFE /* Build configuration list for PBXNativeTarget "AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772A864612451A0800028CFE /* Debug */,
+				772A864712451A0800028CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AgileDevPracticesEast2010" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9277114123D41FF000AD491 /* Build configuration list for PBXNativeTarget "LogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9277112123D41FF000AD491 /* Debug */,
+				C9277113123D41FF000AD491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9277135123D4238000AD491 /* Build configuration list for PBXNativeTarget "ApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9277133123D4238000AD491 /* Debug */,
+				C9277134123D4238000AD491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9277142123D423F000AD491 /* Build configuration list for PBXNativeTarget "AgileDevPracticesEast2010Testing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9277143123D423F000AD491 /* Debug */,
+				C9277144123D423F000AD491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2819305F112F816700ECF9B4 /* AgileDevPracticesEast2010.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28C3AD890F43EF2300507BA6 /* AgileDevPracticesEast2010.xcdatamodel */,
+			);
+			currentVersion = 28C3AD890F43EF2300507BA6 /* AgileDevPracticesEast2010.xcdatamodel */;
+			path = AgileDevPracticesEast2010.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
