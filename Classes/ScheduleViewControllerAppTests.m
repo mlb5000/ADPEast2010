@@ -55,6 +55,7 @@
 - (void) testcellForRowAtIndexPath_TitleMatchExpected {
 	STAssertTrue([[self cellAtIndexPath:0 row:0].textLabel.text isEqualToString:@"My Schedule"], nil);
 	STAssertTrue([[self cellAtIndexPath:0 row:1].textLabel.text isEqualToString:@"Popular Sessions"], nil);
+	STAssertTrue([[self cellAtIndexPath:0 row:2].textLabel.text isEqualToString:@"All Sessions"], nil);
 	STAssertTrue([[self cellAtIndexPath:1 row:0].textLabel.text isEqualToString:@"Sunday"], nil);
 	STAssertTrue([[self cellAtIndexPath:1 row:1].textLabel.text isEqualToString:@"Monday"], nil);
 	STAssertTrue([[self cellAtIndexPath:1 row:2].textLabel.text isEqualToString:@"Tuesday"], nil);
@@ -81,7 +82,7 @@
 
 
 - (void) testnumberOfRowsInSection_SectionZero_EqualsTwo {
-	STAssertEquals([controller tableView:tableViewMock numberOfRowsInSection:0], 2, nil);
+	STAssertEquals([controller tableView:tableViewMock numberOfRowsInSection:0], 3, nil);
 }
 
 

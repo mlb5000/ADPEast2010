@@ -177,6 +177,8 @@
 		C9277387123DA8D2000AD491 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9277386123DA8D2000AD491 /* libOCMock.a */; };
 		C927738E123DA8DA000AD491 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9277386123DA8D2000AD491 /* libOCMock.a */; };
 		C9E1A327124027550050A6E0 /* ScheduleViewControllerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E1A326124027550050A6E0 /* ScheduleViewControllerAppTests.m */; };
+		E54BA28E1277AF10008B6DF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		E54BA2AE1277AF17008B6DF4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -353,6 +355,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E54BA2AE1277AF17008B6DF4 /* CoreData.framework in Frameworks */,
+				E54BA28E1277AF10008B6DF4 /* CoreGraphics.framework in Frameworks */,
 				772A874612452A9D00028CFE /* libyajl_s.a in Frameworks */,
 				77FD7E6112402FDE00A3AE49 /* libOCMock.a in Frameworks */,
 				77BFF9831244396700C08D21 /* libOAuth.a in Frameworks */,

@@ -78,20 +78,20 @@
 }
 
 - (void)setAttendingButtonText {
-	NSString *title = nil;
+	NSString *buttonText = nil;
 	if ([session.attending boolValue] == YES) {
-		title = @"I won't be there";
+		buttonText = @"I won't be there";
 	}
 	else {
-		title = @"I'll be there!";
+		buttonText = @"I'll be there!";
 	}
 	
-	[self.attendingButton setTitle: title forState: UIControlStateNormal];
-	[self.attendingButton setTitle: title forState: UIControlStateApplication];
-	[self.attendingButton setTitle: title forState: UIControlStateHighlighted];
-	[self.attendingButton setTitle: title forState: UIControlStateReserved];
-	[self.attendingButton setTitle: title forState: UIControlStateSelected];
-	[self.attendingButton setTitle: title forState: UIControlStateDisabled];
+	[self.attendingButton setTitle: buttonText forState: UIControlStateNormal];
+	[self.attendingButton setTitle: buttonText forState: UIControlStateApplication];
+	[self.attendingButton setTitle: buttonText forState: UIControlStateHighlighted];
+	[self.attendingButton setTitle: buttonText forState: UIControlStateReserved];
+	[self.attendingButton setTitle: buttonText forState: UIControlStateSelected];
+	[self.attendingButton setTitle: buttonText forState: UIControlStateDisabled];
 }
 
 

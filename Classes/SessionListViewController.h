@@ -12,7 +12,7 @@
 @protocol SessionDetailProtocol;
 @class SessionCollection;
 
-@interface SessionListViewController : UITableViewController<SessionListProtocol, NSFetchedResultsControllerDelegate> {
+@interface SessionListViewController : UITableViewController<SessionListProtocol> {
 	//NSArray *sectionTitles;
 	//key: section title value: session object 
 	//NSDictionary *sessionData;
