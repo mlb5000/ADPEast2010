@@ -266,32 +266,18 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
-								<string>080E96DDFE201D6D7F000001</string>
-								<string>C9277154123D431E000AD491</string>
-								<string>778F6109124C0CC100B324CB</string>
-								<string>77BFF99C12443BB500C08D21</string>
-								<string>77BFF66B1243D62500C08D21</string>
-								<string>77BFF66A1243D61500C08D21</string>
-								<string>77BFF6691243D60A00C08D21</string>
-								<string>77BFF6681243D5FE00C08D21</string>
-								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>1C37FBAC04509CD000000102</string>
-								<string>E54BA2DA1277AF3B008B6DF4</string>
-								<string>E54BA2DB1277AF3B008B6DF4</string>
-								<string>E54BA2DC1277AF3B008B6DF4</string>
-								<string>E54BA2DD1277AF3B008B6DF4</string>
-								<string>E54BA2DE1277AF3B008B6DF4</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>74</integer>
-									<integer>52</integer>
+									<integer>3</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 815}, {257, 681}}</string>
+							<string>{{0, 0}, {257, 681}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -326,7 +312,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AgileDevPracticesEast2010AppDelegate.h</string>
+								<string>ScheduleViewControllerAppTests.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -334,11 +320,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AgileDevPracticesEast2010AppDelegate.h</string>
+										<string>ScheduleViewControllerAppTests.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E54BA2EC1277AF3B008B6DF4</string>
+										<string>E54BA2FE1277B05F008B6DF4</string>
 										<key>history</key>
 										<array>
 											<string>E54BA2DF1277AF3B008B6DF4</string>
@@ -353,7 +339,11 @@
 											<string>E54BA2E81277AF3B008B6DF4</string>
 											<string>E54BA2E91277AF3B008B6DF4</string>
 											<string>E54BA2EA1277AF3B008B6DF4</string>
-											<string>E54BA2EB1277AF3B008B6DF4</string>
+											<string>E54BA2F91277B05F008B6DF4</string>
+											<string>E54BA2FA1277B05F008B6DF4</string>
+											<string>E54BA2FB1277B05F008B6DF4</string>
+											<string>E54BA2FC1277B05F008B6DF4</string>
+											<string>E54BA2FD1277B05F008B6DF4</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -551,7 +541,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>E54BA2EE1277AF3B008B6DF4</string>
+		<string>E54BA2FF1277B05F008B6DF4</string>
 		<string>E54BA2EF1277AF3B008B6DF4</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
@@ -886,6 +876,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -896,18 +888,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {650, 209}}</string>
+								<string>{{0, 0}, {1440, 701}}</string>
 								<key>RubberWindowFrame</key>
-								<string>21 605 650 250 0 0 1440 878 </string>
+								<string>0 136 1440 742 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
 							<key>Proportion</key>
-							<string>209pt</string>
+							<string>701pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>209pt</string>
+					<string>701pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -927,7 +919,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>21 605 650 250 0 0 1440 878 </string>
+			<string>0 136 1440 742 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

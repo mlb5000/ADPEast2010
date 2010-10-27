@@ -3,8 +3,8 @@
 	1D3623240D0F684500981E51 /* AgileDevPracticesEast2010AppDelegate.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1100, 494}}";
-			sepNavSelRange = "{618, 0}";
-			sepNavVisRange = "{76, 1021}";
+			sepNavSelRange = "{78, 0}";
+			sepNavVisRange = "{46, 1051}";
 		};
 	};
 	1D3623250D0F684500981E51 /* AgileDevPracticesEast2010AppDelegate.m */ = {
@@ -79,17 +79,6 @@
 			PBXWorkspaceStateSaveDate = 309832003;
 		};
 		perUserProjectItems = {
-			E54BA2681277AC86008B6DF4 /* XCBuildMessageTextBookmark */ = E54BA2681277AC86008B6DF4 /* XCBuildMessageTextBookmark */;
-			E54BA2691277AC86008B6DF4 /* PBXTextBookmark */ = E54BA2691277AC86008B6DF4 /* PBXTextBookmark */;
-			E54BA2741277AD29008B6DF4 /* PBXTextBookmark */ = E54BA2741277AD29008B6DF4 /* PBXTextBookmark */;
-			E54BA2751277AD29008B6DF4 /* PBXBookmark */ = E54BA2751277AD29008B6DF4 /* PBXBookmark */;
-			E54BA2761277AD29008B6DF4 /* PBXTextBookmark */ = E54BA2761277AD29008B6DF4 /* PBXTextBookmark */;
-			E54BA2791277AD89008B6DF4 /* PBXTextBookmark */ = E54BA2791277AD89008B6DF4 /* PBXTextBookmark */;
-			E54BA27A1277AD89008B6DF4 /* PBXTextBookmark */ = E54BA27A1277AD89008B6DF4 /* PBXTextBookmark */;
-			E54BA27B1277AD89008B6DF4 /* XCBuildMessageTextBookmark */ = E54BA27B1277AD89008B6DF4 /* XCBuildMessageTextBookmark */;
-			E54BA27C1277AD89008B6DF4 /* PBXTextBookmark */ = E54BA27C1277AD89008B6DF4 /* PBXTextBookmark */;
-			E54BA27F1277AE2B008B6DF4 /* PBXTextBookmark */ = E54BA27F1277AE2B008B6DF4 /* PBXTextBookmark */;
-			E54BA2CB1277AF21008B6DF4 /* PBXTextBookmark */ = E54BA2CB1277AF21008B6DF4 /* PBXTextBookmark */;
 			E54BA2DF1277AF3B008B6DF4 /* PBXTextBookmark */ = E54BA2DF1277AF3B008B6DF4 /* PBXTextBookmark */;
 			E54BA2E01277AF3B008B6DF4 /* PBXTextBookmark */ = E54BA2E01277AF3B008B6DF4 /* PBXTextBookmark */;
 			E54BA2E11277AF3B008B6DF4 /* PBXTextBookmark */ = E54BA2E11277AF3B008B6DF4 /* PBXTextBookmark */;
@@ -102,8 +91,12 @@
 			E54BA2E81277AF3B008B6DF4 /* PBXTextBookmark */ = E54BA2E81277AF3B008B6DF4 /* PBXTextBookmark */;
 			E54BA2E91277AF3B008B6DF4 /* PBXTextBookmark */ = E54BA2E91277AF3B008B6DF4 /* PBXTextBookmark */;
 			E54BA2EA1277AF3B008B6DF4 /* PBXTextBookmark */ = E54BA2EA1277AF3B008B6DF4 /* PBXTextBookmark */;
-			E54BA2EB1277AF3B008B6DF4 /* PBXTextBookmark */ = E54BA2EB1277AF3B008B6DF4 /* PBXTextBookmark */;
-			E54BA2EC1277AF3B008B6DF4 /* PBXTextBookmark */ = E54BA2EC1277AF3B008B6DF4 /* PBXTextBookmark */;
+			E54BA2F91277B05F008B6DF4 /* PBXTextBookmark */ = E54BA2F91277B05F008B6DF4 /* PBXTextBookmark */;
+			E54BA2FA1277B05F008B6DF4 /* PBXTextBookmark */ = E54BA2FA1277B05F008B6DF4 /* PBXTextBookmark */;
+			E54BA2FB1277B05F008B6DF4 /* PBXTextBookmark */ = E54BA2FB1277B05F008B6DF4 /* PBXTextBookmark */;
+			E54BA2FC1277B05F008B6DF4 /* PBXTextBookmark */ = E54BA2FC1277B05F008B6DF4 /* PBXTextBookmark */;
+			E54BA2FD1277B05F008B6DF4 /* PBXBookmark */ = E54BA2FD1277B05F008B6DF4 /* PBXBookmark */;
+			E54BA2FE1277B05F008B6DF4 /* PBXTextBookmark */ = E54BA2FE1277B05F008B6DF4 /* PBXTextBookmark */;
 		};
 		sourceControlManager = E54BA2511277A96E008B6DF4 /* Source Control */;
 		userBuildSettings = {
@@ -125,6 +118,20 @@
 			sepNavSelRange = "{924, 66}";
 			sepNavVisRange = "{433, 1006}";
 			sepNavWindowFrame = "{{15, 80}, {750, 798}}";
+		};
+	};
+	77A84CEC1241777000F16CA0 /* SessionListViewControllerAppTests.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1174, 456}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 886}";
+		};
+	};
+	77A84CED1241777000F16CA0 /* SessionListViewControllerAppTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1125, 2301}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1646, 1567}";
 		};
 	};
 	77BFF4321242DD1200C08D21 /* SessionDetailViewController.h */ = {
@@ -210,6 +217,20 @@
 			sepNavVisRange = "{0, 562}";
 		};
 	};
+	C9E1A325124027550050A6E0 /* ScheduleViewControllerAppTests.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1174, 456}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 884}";
+		};
+	};
+	C9E1A326124027550050A6E0 /* ScheduleViewControllerAppTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1125, 1625}}";
+			sepNavSelRange = "{3506, 0}";
+			sepNavVisRange = "{0, 1064}";
+		};
+	};
 	E54BA22F1277A943008B6DF4 /* AgileDevPracticesEast2010 */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -253,6 +274,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -260,6 +282,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = AgileDevPracticesEast2010Testing;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
@@ -277,108 +301,6 @@
 	E54BA2521277A96E008B6DF4 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
-	};
-	E54BA2681277AC86008B6DF4 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Local declaration of 'title' hides instance variable";
-		fRef = 77BFF4331242DD1200C08D21 /* SessionDetailViewController.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 82;
-		rType = 1;
-	};
-	E54BA2691277AC86008B6DF4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 77BFF4331242DD1200C08D21 /* SessionDetailViewController.m */;
-		name = "SessionDetailViewController.m: 83";
-		rLen = 0;
-		rLoc = 2537;
-		rType = 0;
-		vrLen = 1219;
-		vrLoc = 2030;
-	};
-	E54BA2741277AD29008B6DF4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 77FD7FFA124055CB00A3AE49 /* SessionListViewController.h */;
-		name = "SessionListViewController.h: 15";
-		rLen = 84;
-		rLoc = 289;
-		rType = 0;
-		vrLen = 652;
-		vrLoc = 0;
-	};
-	E54BA2751277AD29008B6DF4 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 1D3623240D0F684500981E51 /* AgileDevPracticesEast2010AppDelegate.h */;
-	};
-	E54BA2761277AD29008B6DF4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* AgileDevPracticesEast2010AppDelegate.h */;
-		name = "AgileDevPracticesEast2010AppDelegate.h: 10";
-		rLen = 29;
-		rLoc = 204;
-		rType = 0;
-		vrLen = 1097;
-		vrLoc = 0;
-	};
-	E54BA2791277AD89008B6DF4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 778F610B124C0CE100B324CB /* SessionListFetchedViewController.m */;
-		name = "SessionListFetchedViewController.m: 32";
-		rLen = 66;
-		rLoc = 924;
-		rType = 0;
-		vrLen = 882;
-		vrLoc = 509;
-	};
-	E54BA27A1277AD89008B6DF4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 778F610A124C0CE100B324CB /* SessionListFetchedViewController.h */;
-		name = "SessionListFetchedViewController.h: 10";
-		rLen = 0;
-		rLoc = 232;
-		rType = 0;
-		vrLen = 892;
-		vrLoc = 0;
-	};
-	E54BA27B1277AD89008B6DF4 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Cannot find protocol declaration for 'NSFetchedResultsControllerDelegate'";
-		fRef = 77FD7FFA124055CB00A3AE49 /* SessionListViewController.h */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 14;
-		rType = 1;
-	};
-	E54BA27C1277AD89008B6DF4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 77FD7FFA124055CB00A3AE49 /* SessionListViewController.h */;
-		name = "SessionListViewController.h: 15";
-		rLen = 0;
-		rLoc = 369;
-		rType = 0;
-		vrLen = 616;
-		vrLoc = 0;
-	};
-	E54BA27F1277AE2B008B6DF4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 77FD7FFA124055CB00A3AE49 /* SessionListViewController.h */;
-		name = "SessionListViewController.h: 15";
-		rLen = 0;
-		rLoc = 369;
-		rType = 0;
-		vrLen = 616;
-		vrLoc = 0;
-	};
-	E54BA2CB1277AF21008B6DF4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 77FD7FFA124055CB00A3AE49 /* SessionListViewController.h */;
-		name = "SessionListViewController.h: 15";
-		rLen = 0;
-		rLoc = 369;
-		rType = 0;
-		vrLen = 616;
-		vrLoc = 0;
 	};
 	E54BA2DF1277AF3B008B6DF4 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -500,24 +422,58 @@
 		vrLen = 327;
 		vrLoc = 0;
 	};
-	E54BA2EB1277AF3B008B6DF4 /* PBXTextBookmark */ = {
+	E54BA2F91277B05F008B6DF4 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623240D0F684500981E51 /* AgileDevPracticesEast2010AppDelegate.h */;
-		name = "AgileDevPracticesEast2010AppDelegate.h: 10";
-		rLen = 29;
-		rLoc = 204;
+		name = "AgileDevPracticesEast2010AppDelegate.h: 4";
+		rLen = 0;
+		rLoc = 78;
 		rType = 0;
-		vrLen = 1097;
+		vrLen = 1051;
+		vrLoc = 46;
+	};
+	E54BA2FA1277B05F008B6DF4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77A84CED1241777000F16CA0 /* SessionListViewControllerAppTests.m */;
+		name = "SessionListViewControllerAppTests.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1567;
+		vrLoc = 1646;
+	};
+	E54BA2FB1277B05F008B6DF4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77A84CEC1241777000F16CA0 /* SessionListViewControllerAppTests.h */;
+		name = "SessionListViewControllerAppTests.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 886;
 		vrLoc = 0;
 	};
-	E54BA2EC1277AF3B008B6DF4 /* PBXTextBookmark */ = {
+	E54BA2FC1277B05F008B6DF4 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* AgileDevPracticesEast2010AppDelegate.h */;
-		name = "AgileDevPracticesEast2010AppDelegate.h: 25";
+		fRef = C9E1A325124027550050A6E0 /* ScheduleViewControllerAppTests.h */;
+		name = "ScheduleViewControllerAppTests.h: 1";
 		rLen = 0;
-		rLoc = 618;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 1021;
-		vrLoc = 76;
+		vrLen = 884;
+		vrLoc = 0;
+	};
+	E54BA2FD1277B05F008B6DF4 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C9E1A326124027550050A6E0 /* ScheduleViewControllerAppTests.m */;
+	};
+	E54BA2FE1277B05F008B6DF4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9E1A326124027550050A6E0 /* ScheduleViewControllerAppTests.m */;
+		name = "ScheduleViewControllerAppTests.m: 77";
+		rLen = 0;
+		rLoc = 3506;
+		rType = 0;
+		vrLen = 1064;
+		vrLoc = 0;
 	};
 }
